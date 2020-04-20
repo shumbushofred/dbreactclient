@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.thelist {
+   
+    background-color: #333;
+}
+nav{
+    display: flex;
+    align-items:right;
+    background: rgb(90, 134, 199);
+    
+    align-items: center;
+}
+.navlist{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+}
+.thebutton{
+    color: rgb(25, 110, 206);
+    font-family: "prxima nova";
+    font-weight: 40;
+    font-size: 20px;
+    float: left; 
+    margin: 50px;
+    border: solid 2px #31A6FF;
+    border-radius: 10px;
+
+    padding: 10px 10px;
+    list-style: none;
+    transition-duration: 200ms;
+
+}
+.thebutton:hover{
+    background-color:rgb(25, 110, 206);
+    color:#fff;
+}

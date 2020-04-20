@@ -1,0 +1,12 @@
+.thetables {
+    display: 'flex';
+    align-Items: 'center';
+    display: inline-block;
+    flex-direction: column;
+    margin: -50px;
+    
+} 
+.theleft {
+    margin: 50px;
+    float: left; 
+} 
